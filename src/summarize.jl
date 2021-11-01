@@ -23,7 +23,7 @@ function summarize(di::Dict; n_pr::Int64 = 4)::Nothing
 
     end
 
-    return
+    return nothing
 
 end
 

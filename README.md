@@ -1,24 +1,6 @@
 # DictExtension.jl
 
-Do something :blush:
-
-## Use
-
-```jl
-using DictExtension
-```
-
-### `function1`
-
-```jl
-function1()
-```
-
-### `function2`
-
-```jl
-function2()
-```
+Do more with dictionaries :school_satchel:
 
 ## Howdy :wave: :cowboy_hat_face:
 

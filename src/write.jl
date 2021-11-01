@@ -1,6 +1,6 @@
-using JSON: json as JSON_json
+using JSON: print as JSON_print
 
-function write(pa::String, di::Dict)::Int64
+function write(pa::String, di::Dict)::Nothing
 
     println(pa)
 
@@ -12,9 +12,12 @@ function write(pa::String, di::Dict)::Int64
 
     open(pa, "w") do io
 
-        return Base.write(io, JSON_json(di, 4))
+        return JSON_print(io, di, 4)
 
     end
+
+    return nothing
+
 
 end
 
