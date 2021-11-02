@@ -1,11 +1,8 @@
 name = "DictExtension"
-uuid = "8153008d-77ec-4a19-8d64-12263f1563b5"
+uuid = "2d148def-e7a3-4366-9136-aca75ad53519"
 authors = ["KwatMDPhD <kwat.me@icloud.com>"]
 version = "0.1.0"
 
 [deps]
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
-
-[compat]
-julia = "1.6"
