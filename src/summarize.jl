@@ -4,7 +4,7 @@ function summarize(di::Dict; n_pr::Int64 = 4)::Nothing
         length(keys(di)),
         " keys and ",
         length(Set(values(di))),
-        " unique values:",
+        " unique values",
     )
 
     for (id, (ke, va)) in enumerate(di)
@@ -15,7 +15,11 @@ function summarize(di::Dict; n_pr::Int64 = 4)::Nothing
 
         else
 
-            println("...")
+            if n_pr != 0
+
+                println("...")
+
+            end
 
             break
 
