@@ -10,7 +10,7 @@ using DictExtension
 
 ### convert_to_keyword_argument
 
-Convert Dict{String, Any} to Dict{Symbol, Any}
+Convert `Dict{String, Any}` to `Dict{Symbol, Any}`
 
 ```jl
 convert_to_keyword_argument(di)
