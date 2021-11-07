@@ -27,9 +27,7 @@ JSON.print(DictExtension.merge(di1, di2), id)
 
 JSON.print(DictExtension.merge(di2, di1), id)
 
-summarize(
-    Dict(1 => "a", 2 => "a", 3 => "b", 4 => nothing, 5 => nothing, 6 => NaN),
-)
+summarize(Dict(1 => "a", 2 => "a", 3 => "b", 4 => nothing, 5 => nothing, 6 => NaN))
 
 convert_to_keyword_argument(Dict("a" => 1, "b" => 2.0))
 
