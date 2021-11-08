@@ -8,7 +8,7 @@ Do more with `Dict`s :school_satchel:
 using DictExtension
 ```
 
-### convert_to_keyword_argument
+### `convert_to_keyword_argument`
 
 Convert `Dict{String, Any}` to `Dict{Symbol, Any}`
 
@@ -16,7 +16,7 @@ Convert `Dict{String, Any}` to `Dict{Symbol, Any}`
 convert_to_keyword_argument(di)
 ```
 
-### merge
+### `merge`
 
 Merge 2 `Dict`s recursively
 
@@ -24,7 +24,15 @@ Merge 2 `Dict`s recursively
 DictExtension.merge(di1, di2)
 ```
 
-### read
+### `summarize`
+
+Print `Dict` summaries
+
+```jl
+summarize(di)
+```
+
+### `read`
 
 Read `json` as `Dict`
 
@@ -32,20 +40,12 @@ Read `json` as `Dict`
 DictExtension.read("path/to/a.json")
 ```
 
-### write
+### `write`
 
 Write `Dict` as `json`
 
 ```jl
 DictExtension.write("path/to/a.json", di)
-```
-
-### summarize
-
-Print `Dict` summaries
-
-```jl
-summarize(di)
 ```
 
 ## Howdy :wave: :cowboy_hat_face:
